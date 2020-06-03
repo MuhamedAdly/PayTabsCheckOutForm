@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		40B4FE8A248766F7005F4E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4FE89248766F7005F4E94 /* AppDelegate.swift */; };
-		40B4FE8C248766F7005F4E94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4FE8B248766F7005F4E94 /* SceneDelegate.swift */; };
-		40B4FE8E248766F7005F4E94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4FE8D248766F7005F4E94 /* ViewController.swift */; };
 		40B4FE91248766F7005F4E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B4FE8F248766F7005F4E94 /* Main.storyboard */; };
 		40B4FE93248766F9005F4E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B4FE92248766F9005F4E94 /* Assets.xcassets */; };
 		40B4FE96248766F9005F4E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B4FE94248766F9005F4E94 /* LaunchScreen.storyboard */; };
+		40B4FEA224876A00005F4E94 /* PayTabsBridgeHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = 40B4FEA124876A00005F4E94 /* PayTabsBridgeHeader.h */; };
+		40B4FEA62487715B005F4E94 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4FEA52487715B005F4E94 /* CheckoutViewController.swift */; };
+		40B4FEAA24877747005F4E94 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4FEA924877747005F4E94 /* UserInfo.swift */; };
+		40B4FEAD24877ABF005F4E94 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40B4FEAB24877ABF005F4E94 /* Resources.bundle */; };
+		40B4FEAE24877ABF005F4E94 /* paytabs-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B4FEAC24877ABF005F4E94 /* paytabs-iOS.framework */; };
+		40B4FEB124878093005F4E94 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4FEB024878093005F4E94 /* UserDefaults.swift */; };
+		40B4FEB3248780E5005F4E94 /* PaymentResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4FEB2248780E5005F4E94 /* PaymentResultViewController.swift */; };
+		40B4FEB724878F11005F4E94 /* UserInforInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4FEB524878F11005F4E94 /* UserInforInputTableViewCell.swift */; };
+		40B4FEB824878F11005F4E94 /* UserInforInputTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40B4FEB624878F11005F4E94 /* UserInforInputTableViewCell.xib */; };
+		40B4FEBB2487A650005F4E94 /* CountrySelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4FEB92487A650005F4E94 /* CountrySelectorTableViewCell.swift */; };
+		40B4FEBC2487A650005F4E94 /* CountrySelectorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40B4FEBA2487A650005F4E94 /* CountrySelectorTableViewCell.xib */; };
+		40B4FEBF2487D000005F4E94 /* CheckOutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4FEBE2487D000005F4E94 /* CheckOutViewModel.swift */; };
+		40B4FEC12487D522005F4E94 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4FEC02487D522005F4E94 /* String.swift */; };
+		40B4FEC32487D6B9005F4E94 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4FEC22487D6B9005F4E94 /* UIViewController.swift */; };
+		D413215CA4B63727037DBC0D /* libPods-PayTabsClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B9387858F93064F5E2BA7D /* libPods-PayTabsClient.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		40B4FE86248766F7005F4E94 /* PayTabsClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayTabsClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B4FE89248766F7005F4E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40B4FE8B248766F7005F4E94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40B4FE8D248766F7005F4E94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40B4FE90248766F7005F4E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40B4FE92248766F9005F4E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40B4FE95248766F9005F4E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40B4FE97248766F9005F4E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40B4FEA124876A00005F4E94 /* PayTabsBridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayTabsBridgeHeader.h; sourceTree = "<group>"; };
+		40B4FEA52487715B005F4E94 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		40B4FEA924877747005F4E94 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		40B4FEAB24877ABF005F4E94 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = SOURCE_ROOT; };
+		40B4FEAC24877ABF005F4E94 /* paytabs-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "paytabs-iOS.framework"; sourceTree = SOURCE_ROOT; };
+		40B4FEB024878093005F4E94 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		40B4FEB2248780E5005F4E94 /* PaymentResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentResultViewController.swift; sourceTree = "<group>"; };
+		40B4FEB524878F11005F4E94 /* UserInforInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInforInputTableViewCell.swift; sourceTree = "<group>"; };
+		40B4FEB624878F11005F4E94 /* UserInforInputTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInforInputTableViewCell.xib; sourceTree = "<group>"; };
+		40B4FEB92487A650005F4E94 /* CountrySelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectorTableViewCell.swift; sourceTree = "<group>"; };
+		40B4FEBA2487A650005F4E94 /* CountrySelectorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountrySelectorTableViewCell.xib; sourceTree = "<group>"; };
+		40B4FEBE2487D000005F4E94 /* CheckOutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutViewModel.swift; sourceTree = "<group>"; };
+		40B4FEC02487D522005F4E94 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		40B4FEC22487D6B9005F4E94 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		59C0CE1609BB1104C73808B3 /* Pods-PayTabsClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTabsClient.release.xcconfig"; path = "Target Support Files/Pods-PayTabsClient/Pods-PayTabsClient.release.xcconfig"; sourceTree = "<group>"; };
+		8C889B8EC0B1CE5FDDA73D7B /* Pods-PayTabsClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTabsClient.debug.xcconfig"; path = "Target Support Files/Pods-PayTabsClient/Pods-PayTabsClient.debug.xcconfig"; sourceTree = "<group>"; };
+		C3B9387858F93064F5E2BA7D /* libPods-PayTabsClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PayTabsClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B4FEAE24877ABF005F4E94 /* paytabs-iOS.framework in Frameworks */,
+				D413215CA4B63727037DBC0D /* libPods-PayTabsClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F02D5B0B6BA2C4A07149456 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C889B8EC0B1CE5FDDA73D7B /* Pods-PayTabsClient.debug.xcconfig */,
+				59C0CE1609BB1104C73808B3 /* Pods-PayTabsClient.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		40B4FE7D248766F7005F4E94 = {
 			isa = PBXGroup;
 			children = (
 				40B4FE88248766F7005F4E94 /* PayTabsClient */,
 				40B4FE87248766F7005F4E94 /* Products */,
+				0F02D5B0B6BA2C4A07149456 /* Pods */,
+				BBBCFE378B4466C6038C1AB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +97,75 @@
 		40B4FE88248766F7005F4E94 /* PayTabsClient */ = {
 			isa = PBXGroup;
 			children = (
+				40B4FEBD2487CFD5005F4E94 /* ViewModel */,
+				40B4FEB424878EEC005F4E94 /* Cells */,
+				40B4FEAF24878080005F4E94 /* Extensions */,
+				40B4FEA82487770E005F4E94 /* Models */,
+				40B4FEA724877701005F4E94 /* Views */,
 				40B4FE89248766F7005F4E94 /* AppDelegate.swift */,
-				40B4FE8B248766F7005F4E94 /* SceneDelegate.swift */,
-				40B4FE8D248766F7005F4E94 /* ViewController.swift */,
 				40B4FE8F248766F7005F4E94 /* Main.storyboard */,
 				40B4FE92248766F9005F4E94 /* Assets.xcassets */,
 				40B4FE94248766F9005F4E94 /* LaunchScreen.storyboard */,
 				40B4FE97248766F9005F4E94 /* Info.plist */,
+				40B4FEA124876A00005F4E94 /* PayTabsBridgeHeader.h */,
 			);
 			path = PayTabsClient;
+			sourceTree = "<group>";
+		};
+		40B4FEA724877701005F4E94 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40B4FEA52487715B005F4E94 /* CheckoutViewController.swift */,
+				40B4FEB2248780E5005F4E94 /* PaymentResultViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40B4FEA82487770E005F4E94 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				40B4FEA924877747005F4E94 /* UserInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		40B4FEAF24878080005F4E94 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40B4FEB024878093005F4E94 /* UserDefaults.swift */,
+				40B4FEC02487D522005F4E94 /* String.swift */,
+				40B4FEC22487D6B9005F4E94 /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		40B4FEB424878EEC005F4E94 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				40B4FEB524878F11005F4E94 /* UserInforInputTableViewCell.swift */,
+				40B4FEB624878F11005F4E94 /* UserInforInputTableViewCell.xib */,
+				40B4FEB92487A650005F4E94 /* CountrySelectorTableViewCell.swift */,
+				40B4FEBA2487A650005F4E94 /* CountrySelectorTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		40B4FEBD2487CFD5005F4E94 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				40B4FEBE2487D000005F4E94 /* CheckOutViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BBBCFE378B4466C6038C1AB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40B4FEAC24877ABF005F4E94 /* paytabs-iOS.framework */,
+				40B4FEAB24877ABF005F4E94 /* Resources.bundle */,
+				C3B9387858F93064F5E2BA7D /* libPods-PayTabsClient.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40B4FE9A248766F9005F4E94 /* Build configuration list for PBXNativeTarget "PayTabsClient" */;
 			buildPhases = (
+				920672BA7850C2D992EDE8E0 /* [CP] Check Pods Manifest.lock */,
 				40B4FE82248766F7005F4E94 /* Sources */,
 				40B4FE83248766F7005F4E94 /* Frameworks */,
 				40B4FE84248766F7005F4E94 /* Resources */,
+				5A56183269D3548D2593C443 /* [CP] Embed Pods Frameworks */,
+				3046B3DE45389646A5703EE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,20 +231,90 @@
 			files = (
 				40B4FE96248766F9005F4E94 /* LaunchScreen.storyboard in Resources */,
 				40B4FE93248766F9005F4E94 /* Assets.xcassets in Resources */,
+				40B4FEBC2487A650005F4E94 /* CountrySelectorTableViewCell.xib in Resources */,
 				40B4FE91248766F7005F4E94 /* Main.storyboard in Resources */,
+				40B4FEAD24877ABF005F4E94 /* Resources.bundle in Resources */,
+				40B4FEB824878F11005F4E94 /* UserInforInputTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3046B3DE45389646A5703EE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayTabsClient/Pods-PayTabsClient-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayTabsClient/Pods-PayTabsClient-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayTabsClient/Pods-PayTabsClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A56183269D3548D2593C443 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayTabsClient/Pods-PayTabsClient-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayTabsClient/Pods-PayTabsClient-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayTabsClient/Pods-PayTabsClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		920672BA7850C2D992EDE8E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayTabsClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		40B4FE82248766F7005F4E94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40B4FE8E248766F7005F4E94 /* ViewController.swift in Sources */,
+				40B4FEB724878F11005F4E94 /* UserInforInputTableViewCell.swift in Sources */,
+				40B4FEBB2487A650005F4E94 /* CountrySelectorTableViewCell.swift in Sources */,
+				40B4FEC12487D522005F4E94 /* String.swift in Sources */,
+				40B4FEC32487D6B9005F4E94 /* UIViewController.swift in Sources */,
+				40B4FEAA24877747005F4E94 /* UserInfo.swift in Sources */,
+				40B4FEB124878093005F4E94 /* UserDefaults.swift in Sources */,
+				40B4FEA62487715B005F4E94 /* CheckoutViewController.swift in Sources */,
 				40B4FE8A248766F7005F4E94 /* AppDelegate.swift in Sources */,
-				40B4FE8C248766F7005F4E94 /* SceneDelegate.swift in Sources */,
+				40B4FEBF2487D000005F4E94 /* CheckOutViewModel.swift in Sources */,
+				40B4FEB3248780E5005F4E94 /* PaymentResultViewController.swift in Sources */,
+				40B4FEA224876A00005F4E94 /* PayTabsBridgeHeader.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,17 +456,55 @@
 		};
 		40B4FE9B248766F9005F4E94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C889B8EC0B1CE5FDDA73D7B /* Pods-PayTabsClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XPZSF6CW48;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PayTabsClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"ActionSheetPicker-3.0\"",
+					"-l\"BIObjCHelpers\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"Lockbox\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"Mantle\"",
+					"-l\"PINCache\"",
+					"-l\"Reachability\"",
+					"-l\"SBJson\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"PayCardsRecognizer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.PayTabs.PayTabsClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = PayTabsClient/PayTabsBridgeHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +512,55 @@
 		};
 		40B4FE9C248766F9005F4E94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C0CE1609BB1104C73808B3 /* Pods-PayTabsClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XPZSF6CW48;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PayTabsClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"ActionSheetPicker-3.0\"",
+					"-l\"BIObjCHelpers\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"Lockbox\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"Mantle\"",
+					"-l\"PINCache\"",
+					"-l\"Reachability\"",
+					"-l\"SBJson\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"PayCardsRecognizer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.PayTabs.PayTabsClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = PayTabsClient/PayTabsBridgeHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

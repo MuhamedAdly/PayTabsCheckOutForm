@@ -1,0 +1,6 @@
+module Pods_PayTabsClient {
+  umbrella header "Pods-PayTabsClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
