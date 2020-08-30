@@ -6,7 +6,7 @@ target 'PayTabsClient' do
 #  use_frameworks!
    pod 'BIObjCHelpers'
    pod 'IQKeyboardManager', '~> 4.0.2'
-   pod 'AFNetworking', '~> 4.0'
+   pod 'AFNetworking', '~> 4.0.1'
    pod 'Mantle'
    pod 'Reachability'
    pod 'Lockbox'

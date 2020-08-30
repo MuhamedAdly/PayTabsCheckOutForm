@@ -24,13 +24,20 @@ PODS:
   - Mantle/extobjc (2.1.1)
   - MBProgressHUD (1.1.0)
   - PayCardsRecognizer (1.1.7)
-  - PINCache (2.3)
+  - PINCache (3.0.1):
+    - PINCache/Arc-exception-safe (= 3.0.1)
+    - PINCache/Core (= 3.0.1)
+  - PINCache/Arc-exception-safe (3.0.1):
+    - PINCache/Core
+  - PINCache/Core (3.0.1):
+    - PINOperation (~> 1.2.0)
+  - PINOperation (1.2)
   - Reachability (3.2)
   - SBJson (5.0.3)
 
 DEPENDENCIES:
   - ActionSheetPicker-3.0
-  - AFNetworking (~> 4.0)
+  - AFNetworking (~> 4.0.1)
   - BIObjCHelpers
   - CountryPickerView (from `https://github.com/MuhamedAdly/CountryPickerView.git`)
   - IQKeyboardManager (~> 4.0.2)
@@ -53,6 +60,7 @@ SPEC REPOS:
     - MBProgressHUD
     - PayCardsRecognizer
     - PINCache
+    - PINOperation
     - Reachability
     - SBJson
 
@@ -75,10 +83,11 @@ SPEC CHECKSUMS:
   Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   PayCardsRecognizer: 2e4d1b2fdd5f1528fb56064a91e1d58a1af7a2db
-  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINCache: ee3c4abadd09970a61cdda0cfc345e69a3d75b26
+  PINOperation: 3a967a927e7867e61976c6cc23e5770416449fbc
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SBJson: 31813d1508edec904663cd59e71e0225d9dd8e07
 
-PODFILE CHECKSUM: c9e3a93287c3e3bd680e75cec0030753f4b751ca
+PODFILE CHECKSUM: 8150be438af5c562b33737aef577facde228b4f6
 
 COCOAPODS: 1.9.1
